@@ -1,0 +1,345 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing:border-box;
+}
+body{
+	width:100%;
+	height:100%;
+	background-image:url("assets/background_allPage.jpg");
+
+}
+.containerHeader{
+	width:100%;
+	height:100%;
+	background-image:url("assets/background_header.jpg");
+
+}
+.img_logo{
+	width:80px;
+	height:80px;
+	display:inline-block;
+	margin-left: 30px;
+}
+a{
+	display:inline;
+	text-decoration:none;
+	color: #fff;
+	font-size:28px;
+	text-shadow:0px 0px 2px #000;
+}
+.menu_containerHeader{
+	position:fixed;
+	margin-left:950px;
+	top:40px;
+}
+.img_containerHeader{
+	display:inline;
+	width: 270px;
+	height:200px;
+	margin-left:26%;
+	margin-bottom:60px;
+}
+.legend_imgContainerHeader{
+	font-size:30px;
+	font-family: 'Indie Flower', cursive;
+	color: #fff;
+	margin-left: 690px;
+	text-shadow:7px 11px 5px #000;
+}
+.container_monstros{
+	width:100%;
+	height:500px;
+}
+
+.fundo, .fundo_monstro2{
+	height: 400px;
+	width: 450px;
+	position: absolute;
+	margin:15px;
+	margin-left:70px;
+	margin-top:70px;
+	border-radius: 50px;
+	border-left:solid 3px white;
+	border-bottom: solid 3px white;
+}
+
+.corpo{
+	height: 250px;
+	width: 250px;
+	position: absolute;
+	background-color: yellow;
+	border-radius: 50%;
+	left: 125px;
+	top: 80px;
+}
+
+.olhod{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	background-color: white;
+	border-radius: 50%;
+	top: 50px;
+	left: 40px;
+
+}
+
+.olhoe{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	background-color: white;
+	border-radius: 50%;
+	top: 50px;
+	right: 55px;
+}
+
+.boca{
+	height: 5px;
+	width: 50px;
+	position: absolute;
+	background-color: pink;
+	border-radius: 100%;
+	top: 160px;
+	left: 100px;
+	border-bottom-left-radius: 50%;
+}
+
+.bolad{
+	height: 10px;
+	width: 10px;
+	position: absolute;
+	background-color: blue;
+	border-radius: 50%;
+    top: 20px;
+	left: 20px;
+}
+
+.bolae{
+	height: 10px;
+	width: 10px;
+	position: absolute;
+	background-color: blue;
+	border-radius: 50%;
+    top: 20px;
+	right: 20px;
+}
+
+.barra-cha{
+	height:20px;
+	width:250px;
+	position: absolute;
+	background-color:purple;
+	border-radius: 50px;
+	bottom:60px;
+	left: -80%;
+}
+
+.chapeu{
+	height:100px;
+	width:195px;
+	position:absolute;
+	background-color: white;
+	border-top-right-radius: 50%;
+	border-top-left-radius:50%;
+	bottom:78px;
+	left: -7px;
+}
+
+.miolo{
+	height:10px;
+	width:10px;
+	position:absolute;
+	background-color: yellow;
+	border-radius:50%;
+	bottom:0px;
+	left:7px;
+}
+
+.petala1{
+	height:15px;
+	width:15px;
+	position:absolute;
+	background-color:red;
+	border-radius:50%;
+	bottom:8px;
+	left: 10px;
+	
+}
+
+.petala2{
+	height:15px;
+	width:15px;
+	position:absolute;
+	background-color:red;
+	border-radius:50%;
+	left:16px;
+	bottom:-5px;
+}
+
+.petala3{
+	height:15px;
+	width:15px;
+	position:absolute;
+	background-color:red;
+	border-radius:50%;
+	top:80px;
+	left:-3px;
+}
+
+.petala4{
+	height:15px;
+	width:15px;
+	position:absolute;
+	background-color:red;
+	border-radius:50%;
+	top:94px;
+	left:-3px;
+}
+
+.petala5{
+	height:15px;
+	width:15px;
+	position:absolute;
+	background-color:red;
+	border-radius:50%;
+	top:99px;
+	left: 8px;
+}
+.fundo_monstro2{
+	margin-left:770px;
+}
+.corpo_monstro2{
+	width:130px;
+	height:150px;
+	position: absolute;
+	background-color:#20B2AA;
+	border-radius:30px;
+	left:125px;
+	top:80px;
+}
+.olhoe_monstro2, .olhod_monstro2{
+	width:50px;
+	height:50px;
+	position:absolute;
+	border-radius:50%;
+	background-color:#fff;
+	bottom:130px;
+}
+.olhod_monstro2{
+	right:10px;
+}
+.bolinhae_monstro2, .bolinhad_monstro2{
+	width:20px;
+	height:20px;
+	position:absolute;
+	border-radius:50%;
+	background-color:#006400;
+	bottom:20px;
+	left:10px;
+}
+.boca_monstro2{
+	width:50px;
+	height:15px;
+	position:absolute;
+	border-radius:0px 0px 30px 30px;
+	background-color:pink;
+	bottom:60px;
+	left:35px;
+}
+.dente1_monstro2{
+	width:10px;
+	height:20px;
+	position:absolute;
+	background-color:#fff;
+	bottom:55px;
+	left:50px;
+}
+.peE_monstro2, .peD_monstro2{
+	width:30px;
+	height: 80px;
+	position:absolute;
+	background-color:#20B2AA;
+	bottom:95px;
+	border-radius:10%;
+}
+.peE_monstro2{
+	left:150px;
+}
+.peD_monstro2{
+	right:220px;
+}
+.sapatoe_monstro2, .sapatod_monstro2{
+	width:30px;
+	height:20px;
+	position:absolute;
+	background-color:#000;
+	border-radius:0px 0px 30px 30px;
+	top:70px;
+}
+.ombroD_monstro2, .ombroE_monstro2{
+	width:20px;
+	height:10px;
+	position:absolute;
+	background-color: #20B2AA;
+	border-radius:50%;
+	top:140px;
+}
+.ombroE_monstro2{
+	left:110px;
+}
+.ombroD_monstro2{
+	right:180px;
+}
+.bracoD_monstro2, .bracoE_monstro2{
+	width:20px;
+	height:80px;
+	position:absolute;
+	background-color: #20B2AA;
+	-webkit-transform: skew(-20deg);
+	border-radius:20%;
+}
+.bracoE_monstro2{
+	left:95px;
+	bottom:180px;
+}
+.bracoD_monstro2{
+	right:160px;
+	top:70px;
+}
+.container_footer{
+	width:100%;
+	height:300px;
+	margin-top:185px;
+	background-color:#000;
+}
+.img_containerFooter, .contaiiner_listFooter, .container_formFooter{
+	width: 100px;
+	height:200px;
+	display:inline-block;
+	margin-top:40px;
+}
+.contaiiner_listFooter{
+	font-size:30px;
+	margin-left:330px;
+	margin-bottom: 100px;
+}
+.list_footer{
+	list-style-type: none;
+}
+.container_formFooter{
+	margin-left:350px;
+}
+
+.name_form{
+	font-size:30px;
+	font-style:oblique;
+	color:#fff;
+}
+.paragraph_formFooter{
+	font-size: 18px;
+	font-style:italic;
+	color: #fff;
+	margin-left: 30px;
+}
